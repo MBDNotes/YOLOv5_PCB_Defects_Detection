@@ -1,0 +1,10 @@
+# train and val data
+train: ../dataset-pcb/images/train
+val: ../dataset-pcb/images/val
+
+# number of classes
+nc: 6
+
+# class names
+names: ['missing_hole', 'mouse_bite','open_circuit', 'short', 'spur', 'spurious_copper']
+
